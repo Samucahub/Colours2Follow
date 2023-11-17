@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Colours2Follow</title>
+  <title>COLOURS2FOLLOW</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <style>
     body {
@@ -16,9 +16,16 @@
       color: #fff;
       padding: 1em;
       text-align: center;
-      display: flex;
       align-items: center;
-      justify-content: space-between;
+    }
+    header img{
+      width: 50px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    header h1{
+      margin: 0;
     }
 
     nav {
@@ -49,7 +56,7 @@
 
   <header>
   <img src="GitHub.png" alt="Logo" />
-    <h1>Colours2Follow</h1>
+    <h1>COLOURS2FOLLOW</h1>
   </header>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -89,7 +96,7 @@
 
   <footer>
     <div class="container">
-      &copy; 2023 Colours2Follow. Todos os direitos reservados.
+      &copy; 2023 COLOURS2FOLLOW. Todos os direitos reservados.
     </div>
   </footer>
 

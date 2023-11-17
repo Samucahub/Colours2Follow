@@ -50,6 +50,38 @@
       text-align: center;
       padding: 1em 0;
     }
+    .mkd-position-right-inner {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .mkd-main-menu-widget-area {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .mkd-main-menu-widget-area-inner {
+            display: flex;
+            align-items: center;
+        }
+
+        .mkd-right-from-main-menu-widget {
+            margin-left: 20px;
+        }
+
+        .mkd-shopping-cart-dropdown {
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #eee;
+            padding: 10px;
+            display: none;
+        }
+
+        .mkd-shopping-cart-inner:hover .mkd-shopping-cart-dropdown {
+            display: block;
+        }
   </style>
 </head>
 <body>
@@ -60,11 +92,21 @@
   </header>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="Colours2followpagina.php" style="font-weight: bold;">Início</a>
-    <a class="navbar-brand" href="Colours2followLoja.php">Loja</a>
-    <a class="navbar-brand" href="Colours2followFormulario.php">Formulário</a>
-    <a class="navbar-brand" href="Colours2followlocal.php">Local</a>
-  </nav>
+    <ul>
+        <li class="nav-item">
+            <a class="navbar-brand" href="Colours2followpagina.php" style="font-weight: bold;">Início</a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-brand" href="Colours2followLoja.php">Loja</a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-brand" href="Colours2followFormulario.php">Formulário</a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-brand" href="Colours2followLocal.php">Local</a>
+        </li>
+    </ul>
+</nav>
 
   <section id="home">
     <div class="container">

@@ -118,6 +118,7 @@
             .menu-toggle {
                 display: block;
                 cursor: pointer;
+	    }
   </style>
 </head>
 <body>

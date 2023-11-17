@@ -61,38 +61,63 @@
       text-align: center;
       padding: 1em 0;
     }
-    .mkd-position-right-inner {
+	  
+    .top-bar {
             display: flex;
-            align-items: center;
-            justify-content: flex-end;
-        }
-
-        .mkd-main-menu-widget-area {
-            display: flex;
-            align-items: center;
-            margin-right: 20px;
-        }
-
-        .mkd-main-menu-widget-area-inner {
-            display: flex;
+            justify-content: space-between;
             align-items: center;
         }
 
-        .mkd-right-from-main-menu-widget {
-            margin-left: 20px;
+        .logo a {
+            text-decoration: none;
+            color: #333;
         }
 
-        .mkd-shopping-cart-dropdown {
-            position: absolute;
-            background-color: #fff;
-            border: 1px solid #eee;
-            padding: 10px;
+        .main-navigation {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .main-navigation li {
+            margin: 0 15px;
+        }
+
+        .main-navigation a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Additional styling for the menu toggle */
+        .menu-toggle {
             display: none;
         }
 
-        .mkd-shopping-cart-inner:hover .mkd-shopping-cart-dropdown {
-            display: block;
-        }
+        @media (max-width: 768px) {
+            .main-navigation {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background-color: #e9ecef;
+            }
+
+            .main-navigation.show {
+                display: flex;
+            }
+
+            .main-navigation li {
+                margin: 0;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .menu-toggle {
+                display: block;
+                cursor: pointer;
   </style>
 </head>
 <body>
@@ -100,29 +125,28 @@
   <header>
   <img src="GitHub.png" alt="Logo" />
     <h1>COLOURS2FOLLOW</h1>
-    <div class="row">
-
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
-
-	   		<div class="logo">
-		         <a href="index.html">Menu</a>
-		      </div>		      
-
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Início</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">Sobre mim</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resumo</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portofólio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Serviços</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contacto</a></li>				
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 	
   </header>
+
+	<div class="row">
+    <div class="top-bar">
+        <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+        <div class="logo">
+            <a href="Colours2followpagina.php">Menu</a>
+        </div>
+
+        <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+                <li class="current"><a class="smoothscroll" href="#intro" title="">Início</a></li>
+                <li><a class="smoothscroll" href="#about" title="">Sobre mim</a></li>
+                <li><a class="smoothscroll" href="#resume" title="">Resumo</a></li>
+                <li><a class="smoothscroll" href="#portfolio" title="">Portofólio</a></li>
+                <li><a class="smoothscroll" href="#services" title="">Serviços</a></li>
+                <li><a class="smoothscroll" href="#contact" title="">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <ul>

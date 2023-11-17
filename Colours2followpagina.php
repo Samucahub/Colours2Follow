@@ -100,6 +100,28 @@
   <header>
   <img src="GitHub.png" alt="Logo" />
     <h1>COLOURS2FOLLOW</h1>
+    <div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Menu</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Início</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">Sobre mim</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resumo</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portofólio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Serviços</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contacto</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 	
   </header>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">

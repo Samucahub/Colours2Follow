@@ -61,7 +61,6 @@
       text-align: center;
       padding: 1em 0;
     }
-	  
     .top-bar {
             display: flex;
             justify-content: space-between;
@@ -105,6 +104,7 @@
                 background-color: #e9ecef;
             }
 
+
             .main-navigation.show {
                 display: flex;
             }
@@ -118,9 +118,9 @@
             .menu-toggle {
                 display: block;
                 cursor: pointer;
-	    }
-	}
-  </style>
+            }
+          }
+          </style>
 </head>
 <body>
 
@@ -129,7 +129,7 @@
     <h1>COLOURS2FOLLOW</h1>
   </header>
 
-	<div class="row">
+  <div class="row">
     <div class="top-bar">
         <a class="menu-toggle" href="#"><span>Menu</span></a>
 
@@ -139,8 +139,7 @@
 
         <nav id="main-nav-wrap">
             <ul class="main-navigation">
-                <li class="current"><a class="smoothscroll" href="#intro" title="">Início</a></li>
-                <li><a class="smoothscroll" href="#about" title="">Sobre mim</a></li>
+                <li class="current"><a class="smoothscroll" href="#home" title="">Secção Inicial</a></li>
                 <li><a class="smoothscroll" href="#resume" title="">Resumo</a></li>
                 <li><a class="smoothscroll" href="#portfolio" title="">Portofólio</a></li>
                 <li><a class="smoothscroll" href="#services" title="">Serviços</a></li>
@@ -149,6 +148,7 @@
         </nav>
     </div>
 </div>
+
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <ul>
@@ -166,6 +166,8 @@
         </li>
     </ul>
 </nav>
+
+<img src="Segurança.png">
 
   <section id="home">
     <div class="container">
